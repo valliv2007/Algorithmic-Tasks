@@ -1,5 +1,5 @@
 def evaluate_function(a: int, b: int, c: int, x: int) -> int:
-    # Здесь реализация вашего решения
+    # Здесь реализация вашего решения test
     return a*(x**2) + b*x + c
 
 a, x, b, c = map(int, input().strip().split())
